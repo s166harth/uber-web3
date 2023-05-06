@@ -1,34 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+# Uber Web3 Clone
 
-```bash
-npm run dev
-# or
-yarn dev
+This is a work-in-progress project to create a decentralized, Web3-based ride-sharing platform, inspired by Uber. The project uses various Web3 technologies, such as smart contracts and IPFS, to create a peer-to-peer platform that is more secure, transparent, and efficient.
+
+## Features
+
+The Uber Web3 Clone project will include the following features:
+
+- User registration: Allows users to register their accounts and profiles on the platform.
+- Ride booking: Allows users to book rides on the platform, with various options for pickup location, destination, and payment.
+- Driver registration: Allows drivers to register their accounts and profiles on the platform.
+- Ride acceptance: Allows drivers to accept or reject ride requests, based on their availability and preferences.
+- Ride tracking: Allows users and drivers to track the progress of their rides, and communicate with each other in real-time.
+- Payment processing: Allows for secure, transparent, and fast payments using Web3 technologies, such as smart contracts and cryptocurrency.
+
+## Installation
+
+To run the Uber Web3 Clone locally, you will need to have the following installed on your system:
+
+- Node.js and NPM
+- Truffle framework
+- Ganache or a similar Ethereum development blockchain
+- IPFS
+
+Once you have installed these dependencies, clone the project repository to your local machine and run the following commands:
+
+```
+npm install
+truffle migrate --reset
+npm run start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This will start the development server and launch the Uber Web3 Clone app in your default web browser.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Usage
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+To use the Uber Web3 Clone app, you will need to have a Web3-enabled browser, such as MetaMask, installed on your system. You can use this browser to connect to your local blockchain and interact with the smart contracts and IPFS.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Use the user registration feature to create a new user account, and the driver registration feature to create a new driver account. Once you have registered, you can use the ride booking feature to book a ride, and the ride acceptance feature to accept or reject ride requests as a driver. You can use the ride tracking feature to track the progress of your rides, and the payment processing feature to make or receive payments for your rides.
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+This project is open to contributions from the community. If you would like to contribute to the project, please fork the repository and submit a pull request with your changes. Please ensure that your changes are well-documented and tested, and follow the project's coding standards and guidelines.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Credits
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project was created as part of my Bachelor's degree project, under the guidance of my supervisor. The project uses various open-source libraries and frameworks, such as Truffle and IPFS.
